@@ -1,14 +1,6 @@
-<!--
-
-<div class="search-container">
-    <input 
-      type="text" 
-      placeholder="Search movies..." 
-      (input)="searchMovies($event)"
-    >
-  </div>
-   -->
-
+   <div class="movie-trend">
+    <h1>Trending Movies</h1>
+   </div>
    <div class="movie-grid">
     @if (movies.length > 0) {
       @for (movie of movies; track movie.id) {

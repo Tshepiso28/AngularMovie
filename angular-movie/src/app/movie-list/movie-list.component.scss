@@ -1,6 +1,11 @@
+.movie-trend{
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 0%;
+}
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Exactly 5 columns per row */
+    grid-template-columns: repeat(5, 1fr);
     gap: 50px;
     padding: 16px;
     justify-items: center;
@@ -30,7 +35,7 @@
   
   .movie-card p {
     font-size: 0.9rem;
-    color: #777;
+    color: #f39c12;
   }
 
   .movie-card:hover{
