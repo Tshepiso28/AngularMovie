@@ -13,7 +13,6 @@
     @if (movies.length > 0) {
       @for (movie of movies; track movie.id) {
         <div class="movie-card">
-          <!-- Check if poster_path exists -->
           @if (movie.poster_path) {
             <img 
             [src]="movie.poster_path 

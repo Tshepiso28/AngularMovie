@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    tmdbApiKey: '65f34dc45ab97e68cb1b6074eb8b781f'
+    tmdbApiKey: 'e4b329c3910d0391769d8e0e48f197b8'
 }

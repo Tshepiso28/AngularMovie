@@ -1,0 +1,38 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Exactly 5 columns per row */
+    gap: 50px;
+    padding: 16px;
+    justify-items: center;
+}
+
+  
+  .movie-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+  }
+  
+  .movie-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  
+  .movie-card p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .movie-card:hover{
+    background-color: #333;
+  }
